@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<body style="text-align:center">
+    <script>
+        function walk() {
+            document.getElementById('myImage').src = 'img/signal-green.png';
+        }
+
+        function stop() {
+            document.getElementById('myImage').src = 'img/signal-red.png';
+        }
+    </script>
+
+    <img id="myImage" src="img/signal.png" width="100" height="180">
+
+    <p>
+        <button type="button" onclick="walk()">Walk</button>
+        <button type="button" onclick="stop()">Stop</button>
+    </p>
+
+</body>
+
+</html>
